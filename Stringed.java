@@ -2,6 +2,10 @@ package S101HerenciaPolimorfismoNivel1;
 
 public class Stringed extends Instrument {
 
+    static {
+        System.out.println("another statically loaded block");
+    }
+
     public Stringed(String name, double price){
         super(name, price);
     }

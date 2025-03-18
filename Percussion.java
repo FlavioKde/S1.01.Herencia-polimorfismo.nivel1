@@ -1,6 +1,12 @@
 package S101HerenciaPolimorfismoNivel1;
 
+
+
 public class Percussion extends Instrument {
+
+    static {
+        System.out.println("statically loaded block");
+    }
 
     public Percussion(String name, double price){
         super(name, price);
